@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.tkt-contact-form label, 
+.tkt-contact-form input, 
+.tkt-contact-form textarea { 
+    display: block; margin: 10px 0; 
+}
+.tkt-contact-form label { 
+    font-size: larger; 
+}
+.tkt-contact-form input { 
+    padding: 5px; 
+}
+.tkt-ohnohoney{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+.tkt-missing-or-invalid {
+    border: darkred solid !important;
+}
